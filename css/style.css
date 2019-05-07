@@ -1,0 +1,284 @@
+body{
+  background-color: #FFB7DB;
+}
+header {
+  background-image: url(../images/lcupcake.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  margin: -57px -8.1px 0px;
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: #581845;
+}
+header h1{
+  font-weight: bolder;
+  font-size: 64pt;
+  text-align: center;
+  padding: 200px 20px 1px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+header ul li {
+  margin: -350px 10px 40px;
+}
+header li a{
+  float: right;
+  margin:0px 5px 5px;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.navbar {
+  margin: -16px -7.5px 0px;
+  background-color: white;
+  padding: 2px;
+}
+/*home*/
+.navbar ul li{
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  margin-left: 8px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 21pt;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-size: 27px;
+  color: #581845;
+}
+.aboutTab, .galleryTab{
+  margin: 10px 10px;
+  margin-left: -8px;
+  width: 800px;
+  height: 500px;
+  border: 1px solid pink;
+  background-color: white;
+  border-radius: 10px;
+}
+.aboutTab img , .galleryTab img , .recipeTab img, .eventTab img  {
+  float: right;
+  width: 290px;
+  height: 270px;
+  border-radius: 5px;
+  margin: -32px 0px;
+  margin-right: 20px
+}
+.recipeTab, .eventTab {
+  margin: 20px 20px;
+  margin-left: 539px;
+  width: 800px;
+  height: 500px;
+  border: 1px solid pink;
+  background-color: white;
+  border-radius: 10px;
+}
+.aboutTab p , .galleryTab p , .recipeTab p, .eventTab p {
+  text-align: center;
+  font-size: 17pt;
+  font-family: 'Srisakdi',cursive;
+  padding: 5px;
+}
+.homebody input[type='button'] {
+  height: 40pt;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #581845;
+  text-align: center;
+  margin: 10px 0px 8px 60px;;
+  border: 1px solid #FFB7DB;
+  font-family: 'Amatic SC',cursive;
+  border-radius: 5px;
+  background-color: white;
+}
+/*home h2 & h3*/
+.homebody h2{
+  text-align: center;
+  font-size: 32pt;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+.homebody h3{
+  text-indent: 12px;
+  font-size: 22pt;
+  font-weight: normal;
+  font-family: 'Srisakdi', cursive;
+}
+/*about*/
+.aboutBody{
+  border: 1px solid pink;
+  border-radius: 10px;
+  background-color: white;
+  margin: 15px 40px 15px;
+}
+.aboutTop h2 {
+  text-align: center;
+  font-size: 46pt;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+.aboutTop h3 {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  font-family: 'Srisakdi', cursive;
+}
+.aboutContent h4 {
+  text-indent: 40px;
+  font-size: 20pt;
+  font-weight: 500;
+  font-family: 'Srisakdi', cursive;
+}
+.aboutContent p {
+  text-indent: 0.90em;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: normal;
+  font-family: 'Amatic SC', cursive;
+}
+/*forms*/
+form {
+  margin: 50px;
+  padding: 20px;
+  background-color: white;
+}
+label{
+  font-size: 26pt;
+  text-indent: 0.90em;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+.rBut label {
+  font-size: 22pt;
+  text-indent: 0.90em;
+  font-weight: bold;
+  font-family: 'Srisakdi', cursive;
+}
+input[type=text], input[type=date], input[type=email], input[type=password]{
+ width: 550px; height: 45px;
+ font-size: 20px;
+ color: black;
+ border: 1px solid black;
+ border-radius: 10px;
+}
+input[type=submit]{
+ margin-top: 10pt;
+ background-color: black;
+ width: 150px; height: 45px;
+ border: none;
+ color: white;
+ border-radius: 8px;
+ cursor: pointer;
+ font-family: 'Amatic SC', cursive;
+ font-size: 26px;
+}
+input[type=radio] {
+ width: 15pt;
+ height: 2em;
+ display: inline;
+ font-family: 'Amatic SC', cursive;
+}
+input[type=textarea] {
+ width: 550px; height: 100px;
+ font-size: 20px;
+ color: black;
+ border: 1px solid black;
+ border-radius: 10px;
+}
+/*menu*/
+#biscuits,#cake,#cupcake,#tarts,#extras,#pie{
+  float: left;
+  margin: 40px 20px 0px;
+  width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  font-family: 'Srisakdi', cursive;
+  text-align: center;
+  height: 430px;
+}
+
+#biscuits p,#cupcake p,#cake p,#pie p,#tarts p,#extras p{
+  font-family: 'Amatic SC',cursive;
+  font-size: 16pt;
+  font-weight: bold;
+}
+#biscuits em,#cupcake em,#cake em,#pie em,#tarts em,#extras em{
+  padding-left: 20px;
+  font-family: 'Playfair Display', serif;
+}
+#biscuits img,#cupcake img, #cake img,#pie img, #tarts img,#extras img{
+  width: 35%;
+  height: 35%;
+}
+/*gallery page*/
+#gallery img{
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 30px;
+  border-radius: 3px;
+}
+/*Recepies*/
+.recipe {
+  background-color: white;
+  margin: 25px 250px 10px;
+  text-align: center;
+  font-family: 'Srisakdi', cursive;
+}
+.recipe h4{
+  padding: 5px;
+  font-weight: bold;
+  font-size: 26pt;
+}
+.recipe video,img{
+  width: 50%;
+  height: 25%;
+  margin: 5% 20% 5%;
+}
+#holiday,#birthday,#special{
+  border-bottom: 0.1px solid black;
+}
+footer {
+  border-top: 1px solid white;
+  width: 100%;
+  text-align: center;
+  font-family: 'Amatic SC',cursive;
+  font-size: 20pt;
+  clear: left;
+}
+footer i {
+  margin: 10px 0px 0px;
+  padding-left: 20px;
+}
+/*Event page*/
+.events {
+  background-color: white;
+  margin: 3% 10% 3%;
+  width: 80%;
+  padding: 5px;
+  float: left;
+}
+.events #sales,#giveaways,#young{
+  text-align: center;
+  font-size: 26px;
+}
+.events h3{
+  font-family: 'Amatic SC',cursive;
+  font-weight: 800;
+  font-size: 34px;
+}
+.events p {
+  font-family: 'Srisakdi',cursive;
+  font-weight: bold;
+}
